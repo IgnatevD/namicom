@@ -1,23 +1,24 @@
 {
-  "name": "submit_form",
+  "name": "namicom",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "deploy": "netlify deploy -p"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IgnatevD/submit_form.git"
+    "url": "git+https://github.com/IgnatevD/namicom.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/IgnatevD/submit_form/issues"
+    "url": "https://github.com/IgnatevD/namicom"
   },
-  "homepage": "https://github.com/IgnatevD/submit_form#readme",
+  "homepage": "https://github.com/IgnatevD/namicom#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
     "netlify-cli": "^6.9.2"
