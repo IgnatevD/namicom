@@ -91,7 +91,9 @@ input:not(:placeholder-shown) ~ label {
 }
 .newPost {
   display: block;
-  margin-top: 20px;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 21px;
   font-weight: 700;
 }
 .notForm {
